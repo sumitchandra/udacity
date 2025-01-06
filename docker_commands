@@ -1,0 +1,29 @@
+## Docker commands used to build the application 
+# TODO: insert the docker build command
+docker build -t techtrends .
+
+## Docker commands used to run the application
+# TODO: insert the docker run command
+docker run -it -p 7111:3111  techtrends
+
+## Docker commands used to get the application logs
+# TODO: insert the docker logs command
+docker logs 3c9ff339c835
+
+## Logs from the container running the TechTrends application
+# TODO: paste logs from the Docker container 
+2025-01-06 10:58:13  * Serving Flask app 'app' (lazy loading)
+2025-01-06 10:58:13  * Environment: production
+2025-01-06 10:58:13    WARNING: This is a development server. Do not use it in a production deployment.
+2025-01-06 10:58:13    Use a production WSGI server instead.
+2025-01-06 10:58:13  * Debug mode: off
+2025-01-06 10:58:13 [2025-01-06 09:58:13,882]: [WARNING]  * Running on all addresses.
+2025-01-06 10:58:13    WARNING: This is a development server. Do not use it in a production deployment.
+
+
+#Test Post create
+
+2025-01-06 11:25:49 [2025-01-06 10:25:49,278]: [INFO] A new article with title "Test Post" is created!
+2025-01-06 11:25:49 [2025-01-06 10:25:49,279]: [INFO] 172.17.0.1 - - [06/Jan/2025 10:25:49] "POST /create HTTP/1.1" 302 -
+2025-01-06 11:25:49 [2025-01-06 10:25:49,294]: [INFO] 172.17.0.1 - - [06/Jan/2025 10:25:49] "GET / HTTP/1.1" 200 -
+2025-01-06 11:25:49 [2025-01-06 10:25:49,331]: [INFO] 172.17.0.1 - - [06/Jan/2025 10:25:49] "GET /static/css/main.css HTTP/1.1" 304 -

@@ -1,0 +1,20 @@
+[2025-01-04 12:51:33,165]: [WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-01-04 12:51:33,167]: [INFO]  * Running on http://192.168.1.22:3111/ (Press CTRL+C to quit)
+[2025-01-04 12:52:06,654]: [INFO] 192.168.1.22 - - [04/Jan/2025 12:52:06] "GET / HTTP/1.1" 200 -
+[2025-01-04 12:52:06,943]: [INFO] 192.168.1.22 - - [04/Jan/2025 12:52:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[2025-01-04 12:52:14,597]: [INFO] Status request successfull
+[2025-01-04 12:52:14,598]: [INFO] 192.168.1.22 - - [04/Jan/2025 12:52:14] "GET /healthz HTTP/1.1" 200 -
+[2025-01-04 12:52:21,692]: [INFO] Metrics request successfull
+[2025-01-04 12:52:21,693]: [INFO] 192.168.1.22 - - [04/Jan/2025 12:52:21] "GET /metrics HTTP/1.1" 200 -
+[2025-01-04 12:52:28,190]: [INFO] The "About Us" page is retrieved.
+[2025-01-04 12:52:28,207]: [INFO] 192.168.1.22 - - [04/Jan/2025 12:52:28] "GET /about HTTP/1.1" 200 -
+[2025-01-04 12:52:28,240]: [INFO] 192.168.1.22 - - [04/Jan/2025 12:52:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[2025-01-05 18:21:21,316]: [WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-01-05 18:21:21,319]: [INFO]  * Running on http://192.168.1.22:3111/ (Press CTRL+C to quit)
+[2025-01-05 18:22:11,477]: [INFO] Metrics request successfull
+[2025-01-05 18:22:11,480]: [INFO] 192.168.1.22 - - [05/Jan/2025 18:22:11] "GET /metrics HTTP/1.1" 200 -
+[2025-01-05 18:22:11,623]: [INFO] 192.168.1.22 - - [05/Jan/2025 18:22:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-01-05 18:22:15,332]: [INFO] 192.168.1.22 - - [05/Jan/2025 18:22:15] "GET / HTTP/1.1" 200 -
+[2025-01-05 18:22:16,071]: [INFO] 192.168.1.22 - - [05/Jan/2025 18:22:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
