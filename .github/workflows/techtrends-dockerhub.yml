@@ -31,4 +31,4 @@ jobs:
           file: techtrends/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: techtrends:latest
+          tags: suchan03/techtrends:latest
