@@ -22,7 +22,7 @@ spec:
         app: techtrends
     spec:
       containers:
-        - image: suchan/techtrends:latest
+        - image: suchan03/techtrends:latest
           imagePullPolicy: IfNotPresent
           name: techtrends
           ports:
