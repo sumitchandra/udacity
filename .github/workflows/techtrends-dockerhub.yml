@@ -26,4 +26,4 @@ jobs:
           file: techtrends/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: suchan03/techtrends:${{ steps.meta.outputs.tags }}
+          tags: suchan03/techtrends:latest
